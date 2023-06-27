@@ -1,0 +1,239 @@
+
+body{
+	background: #181E21;
+	display: flex;
+	justify-content: center;
+}
+.Game{
+	display: inline-flex;
+	justify-content: center;
+	border: solid 5px;
+	border-color: #536872;
+}
+.polki{
+	width: 600px;
+	height: 100px;
+	background: #293338;
+	border-bottom: solid 5px;
+	border-color: #536872;
+	display: flex;
+	justify-content: space-around;
+}
+.prs{
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10%;
+}
+.prss{
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10%;
+	opacity: 0.1;
+}
+.infece{
+	position: absolute;
+	z-index: 2;
+	display: flex;
+	top: 70%;
+	border: solid 5px;
+}
+.ottvet{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10%;
+}
+.Rest{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	border-radius: 10%;
+	background: green;
+}
+#points{
+	width: 600px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+}
+.point{
+	width: 200px;
+	height: 80px;
+	border: solid 2px;
+	border-color: #536872;
+}
+#star{
+	background: #001E2C;
+	position: absolute;
+	z-index: 3;
+	top: 70%;
+	font-size: 30px;
+	border: solid 5px;
+	width: 489px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+	height: 129px;
+	color: white;
+	user-select: none;
+}
+#timer{
+	position: absolute;
+	background: #001E2C;
+	z-index: -3;
+	color: white;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 100%;
+	user-select: none;
+	width: 100%;
+}
+
+#pr1,#pr2,#pr4{
+	width: 100px;
+	height: 50px;
+	color: #0091A1;
+	border: solid 2px;
+	border-radius: 10%;
+	font-size: 20px;
+}
+
+@media (min-width:2060px){
+	.polki{
+		width: 800px;
+		height: 200px;
+	}
+	
+	#pr1,#pr2,#pr4{
+		width: 200px;
+		height: 150px;
+		font-size: 30px;
+	}
+	.Rest{
+		width: 150px;
+		height: 150px;
+		margin: 20px;
+	}
+	.ottvet{
+		width: 150px;
+		height: 150px;
+		margin: 20px;
+	}
+	.infece{
+		z-index: 2;
+		top: 70%;
+	}
+	.prss{
+		width: 140px;
+		height: 140px;
+		margin: 30px;
+	}
+	.prs{
+		width: 150px;
+		height: 150px;
+	}
+}
+@media (max-width:650px){
+	.polki{
+		width: 500px;
+		height: 70px;
+	}
+	
+	#pr1,#pr2,#pr4{
+		width: 100px;
+		height: 70px;
+		font-size: 13px;
+	}
+	.Rest{
+		width: 70px;
+		height: 70px;
+		margin: 5px;
+	}
+	.ottvet{
+		width: 70px;
+		height: 70px;
+		margin: 5px;
+	}
+	.prss{
+		width: 60px;
+		height: 60px;
+		margin: 10px;
+	}
+	.prs{
+		width: 70px;
+		height: 70px;
+	}
+}
+@media (max-width:330px){
+	.polki{
+		width: 300px;
+		height: 70px;
+	}
+	
+	#pr1,#pr2,#pr4{
+		width: 80px;
+		height: 50px;
+		font-size: 15px;
+	}
+	.Rest{
+		width: 70px;
+		height: 70px;
+		margin: 5px;
+	}
+	.ottvet{
+		width: 50px;
+		height: 60px;
+		margin: 5px;
+	}
+	.prss{
+		width: 50px;
+		height: 50px;
+		margin: 10px;
+	}
+	.prs{
+		width: 60px;
+		height: 60px;
+	}
+}
+@media (max-width:520px){
+	.polki{
+		width: 300px;
+		height: 70px;
+	}
+	
+	#pr1,#pr2,#pr4{
+		width: 80px;
+		height: 50px;
+		font-size: 15px;
+	}
+	.Rest{
+		width: 70px;
+		height: 70px;
+		margin: 5px;
+	}
+	.ottvet{
+		width: 50px;
+		height: 60px;
+		margin: 5px;
+	}
+	.prss{
+		width: 50px;
+		height: 50px;
+		margin: 10px;
+	}
+	.prs{
+		width: 60px;
+		height: 60px;
+	}
+}
